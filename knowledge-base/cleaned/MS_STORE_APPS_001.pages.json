@@ -1,0 +1,15 @@
+{
+  "document_id": "MS_STORE_APPS_001",
+  "original_filename": "microsoft-store-app-troubleshooting.pdf",
+  "source_reference": "https://support.microsoft.com/en-gb/accounts-billing/fix-problems-with-apps-from-microsoft-store",
+  "pages": [
+    {
+      "original_page": 2,
+      "text": "Fix problems with apps from Microsoft Store\n\nApplies To: Windows 11, Windows 10, Xbox.\n\nIf you're in Windows 11 and you're having problems with an app from Microsoft Store, consider these updates and fixes.\n\nFirst, sign in to your Microsoft account. Next, work through these possible solutions in the order presented.\n\n1. Close and reopen the app.\nSelect the Close (X) button in the upper-right corner of the app window to close it. Then, reopen the app.\n\n2. Make sure Windows is up to date.\nSelect Start > Settings > Windows Update > Check for updates. If there is an available update, select Install now.\n\n3. Make sure that your app works with Windows 11. For more info, see Your app doesn't work with Windows."
+    },
+    {
+      "original_page": 3,
+      "text": "4. Update Microsoft Store.\nSelect Start, then from the apps list, select Microsoft Store. In Microsoft Store, select Library > Get updates. If an update for Microsoft Store is available, it will start installing automatically.\n\n5. Troubleshoot games.\nIf you're having issues installing a game, see Troubleshoot game installations on Windows.\n\n6. Repair or reset your apps.\nSee Repair or Remove programs in Windows.\n\n7. Reinstall your apps.\nIn Microsoft Store, select Library. Find the app you want to reinstall, and then select Install.\n\nNeed more help?\nContact Support\nFor technical support, go to Contact Microsoft Support, enter your problem and select Get Help. If you still need help, select Contact Support to be routed to the best support option."
+    }
+  ]
+}

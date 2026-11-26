@@ -1,0 +1,19 @@
+{
+  "document_id": "MS_WINDOWS_INSTALL_001",
+  "original_filename": "windows-installation-troubleshooting.pdf",
+  "source_reference": "https://support.microsoft.com/en-us/windows/deployment/install-upgrade/fix-problems-that-block-programs-from-being-installed-or-removed",
+  "pages": [
+    {
+      "original_page": 1,
+      "text": "Fix problems that block programs from being installed or removed\n\nApplies To: Windows 11, Windows 10.\n\nSummary\nIf a desktop app can’t be installed, uninstalled, or updated in Windows 11, built-in recovery options and troubleshooting steps can help resolve common issues such as incomplete installs or corrupted app data.\n\nNote\nUse these steps for Windows programs. If the app was installed from Microsoft Store, see Fix problems with apps from Microsoft Store."
+    },
+    {
+      "original_page": 2,
+      "text": "Try the following troubleshooting steps to resolve the issue.\n\nSolution 1. Restart your PC\nGo to Start > Power > Restart.\n\nSolution 2. Repair or reset the app (if available)\n1. Select Start > Settings > Apps > Installed apps.\n2. Select the app, then select Advanced options.\n3. Select Repair.\n4. If the issue continues, select Reset.\n\nNote\nNot all desktop apps support repair or reset options.\n\nSolution 3. Uninstall the app from Settings\n1. Select Start > Settings > Apps > Installed apps.\n2. Select the app, then select Uninstall.\n3. Follow the on-screen instructions.\n\nSolution 4. Use Windows Troubleshooters (if prompted)"
+    },
+    {
+      "original_page": 3,
+      "text": "Solution 4. Use Windows Troubleshooters (if prompted) — continued\n\nWindows 11 may automatically recommend troubleshooting steps when installation or removal fails. Follow the guidance provided in the error message or notification.\n\nMalware or security software issues\nIf you’re trying to remove malware or a suspicious app:\n- Use Windows Security to run a scan.\n- Remove the app only after threats are cleaned.\n\nIf the above steps did not resolve the issue, contact the app publisher for support or consider reinstalling Windows 11 using Reset this PC (keep your files). For more information, see how to reset your PC."
+    }
+  ]
+}

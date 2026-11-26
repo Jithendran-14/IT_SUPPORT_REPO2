@@ -1,0 +1,60 @@
+async_config:
+  queue_size: 10
+  semaphore: 1
+
+ingestion:
+  sources:
+    reviewed_documents:
+      type: LocalStorage
+      directory_path: ./knowledge-base/cleaned
+      file_extensions:
+        - ".json"
+      include_subdirectories: false
+      batch_size: 1
+
+parser:
+  batch_size: 1
+  max_workers: 1
+  enable_partitioning: false
+  normalize: null
+  contextual_embedding: null
+
+chunking:
+  batch_size: 1
+  max_workers: 1
+  strategies:
+    text:
+      type: recursive
+
+      chunk_size: 800
+      chunk_overlap: 100
+      embeddings: {}
+      semantic_config: {}
+      separators:
+        - "\n\n"
+        - "\n"
+        - " "
+        - ""
+    table:
+      type: table
+      max_rows_per_chunk: 10
+    image: null
+
+indexer:
+  embeddings: {}
+  vector_store: local_database
+  batch_size: 8
+  vector_precision: float32
+
+logging:
+  level: INFO
+  console_logging: true
+  file_logging: false
+
+databases:
+  local_database:
+    dsn: IAT_IT_DSN
+    user: IAT_IT_USER
+    password: IAT_IT_PASSWORD
+    secret_store: env_var
+    embeddings_table_name: IT_SUPPORT_EMBEDDINGS

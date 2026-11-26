@@ -1,0 +1,15 @@
+{
+  "document_id": "MS_WORK_ACCOUNT_001",
+  "original_filename": "work-account-access.pdf",
+  "source_reference": "https://support.microsoft.com/en-us/accounts-billing/work-school/work-school-password-tips",
+  "pages": [
+    {
+      "original_page": 2,
+      "text": "Get back into your work or school account\n\nIf you forget your work or school account password, you may be able to reset it yourself using security information such as Microsoft Authenticator, a phone, email address, security key or security questions. The options available depend on how your organization has set up your account.\n\nForgotten your password or can't sign in?\nIf you've already registered security information, you can use it to verify your identity and create a new password.\n\n1. Go to passwordreset.microsoftonline.com.\n\nTip\nIf that option is not available to you, go to mysignins.microsoft.com/security-info and select Can't access your account?\n\n2. Enter your work or school email address or username and follow the prompts to verify your identity using a method you've previously set up.\n3. Follow the prompts to create a new password. Depending on your organization's settings, you may need to verify your identity a second time.\n\nIf you can't reset your password yourself or haven't registered for password reset, contact your organization's administrator or help desk.\nMicrosoft customer support is not able to help you with a work or school password.\n\nKnow your password but want to change it?"
+    },
+    {
+      "original_page": 3,
+      "text": "Know your password but want to change it? — continued\n\nIf you can sign in, you can change your existing work or school account password from the My sign-ins dashboard.\n\n1. Start the sign-in process at mysignins.microsoft.com/security-info and select Password.\n2. Enter and confirm your new password.\n3. Select Submit."
+    }
+  ]
+}
